@@ -17,7 +17,8 @@ const economoyClass = [
       { "seat": "1D", "isSelected": false, "status": true },
       { "seat": "1E", "isSelected": false, "status": true },
       { "seat": "1F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : true
   },
   {
     "row": 2,
@@ -29,6 +30,8 @@ const economoyClass = [
       { "seat": "2E", "isSelected": false, "status": false },
       { "seat": "2F", "isSelected": false, "status": true }
     ]
+    ,
+    "businessClass" : true
   },
   {
     "row": 3,
@@ -39,7 +42,8 @@ const economoyClass = [
       { "seat": "3D", "isSelected": false, "status": true },
       { "seat": "3E", "isSelected": false, "status": true },
       { "seat": "3F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : true
   },
   {
     "row": 4,
@@ -50,7 +54,8 @@ const economoyClass = [
       { "seat": "4D", "isSelected": false, "status": true },
       { "seat": "4E", "isSelected": false, "status": true },
       { "seat": "4F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : true
   },
   {
     "row": 5,
@@ -61,7 +66,8 @@ const economoyClass = [
       { "seat": "5D", "isSelected": false, "status": false },
       { "seat": "5E", "isSelected": false, "status": true },
       { "seat": "5F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : true
   },
   {
     "row": 6,
@@ -72,7 +78,8 @@ const economoyClass = [
       { "seat": "6D", "isSelected": false, "status": true },
       { "seat": "6E", "isSelected": false, "status": true },
       { "seat": "6F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : true
   },
   {
     "row": 7,
@@ -83,7 +90,8 @@ const economoyClass = [
       { "seat": "7D", "isSelected": false, "status": false },
       { "seat": "7E", "isSelected": false, "status": true },
       { "seat": "7F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 8,
@@ -94,7 +102,8 @@ const economoyClass = [
       { "seat": "8D", "isSelected": false, "status": true },
       { "seat": "8E", "isSelected": false, "status": true },
       { "seat": "8F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 9,
@@ -105,7 +114,8 @@ const economoyClass = [
       { "seat": "9D", "isSelected": false, "status": false },
       { "seat": "9E", "isSelected": false, "status": true },
       { "seat": "9F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 10,
@@ -116,7 +126,8 @@ const economoyClass = [
       { "seat": "10D", "isSelected": false, "status": true },
       { "seat": "10E", "isSelected": false, "status": true },
       { "seat": "10F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 11,
@@ -127,7 +138,8 @@ const economoyClass = [
       { "seat": "11D", "isSelected": false, "status": true },
       { "seat": "11E", "isSelected": false, "status": true },
       { "seat": "11F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 12,
@@ -138,7 +150,8 @@ const economoyClass = [
       { "seat": "12D", "isSelected": false, "status": true },
       { "seat": "12E", "isSelected": false, "status": false },
       { "seat": "12F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 13,
@@ -149,7 +162,8 @@ const economoyClass = [
       { "seat": "13D", "isSelected": false, "status": true },
       { "seat": "13E", "isSelected": false, "status": true },
       { "seat": "13F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 14,
@@ -160,7 +174,8 @@ const economoyClass = [
       { "seat": "14D", "isSelected": false, "status": true },
       { "seat": "14E", "isSelected": false, "status": true },
       { "seat": "14F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 15,
@@ -171,7 +186,8 @@ const economoyClass = [
       { "seat": "15D", "isSelected": false, "status": true },
       { "seat": "15E", "isSelected": false, "status": false },
       { "seat": "15F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 16,
@@ -182,7 +198,8 @@ const economoyClass = [
       { "seat": "16D", "isSelected": false, "status": true },
       { "seat": "16E", "isSelected": false, "status": true },
       { "seat": "16F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 17,
@@ -193,7 +210,8 @@ const economoyClass = [
       { "seat": "17D", "isSelected": false, "status": true },
       { "seat": "17E", "isSelected": false, "status": true },
       { "seat": "17F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 18,
@@ -204,7 +222,8 @@ const economoyClass = [
       { "seat": "18D", "isSelected": false, "status": true },
       { "seat": "18E", "isSelected": false, "status": true },
       { "seat": "18F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 19,
@@ -215,7 +234,8 @@ const economoyClass = [
       { "seat": "19D", "isSelected": false, "status": true },
       { "seat": "19E", "isSelected": false, "status": true },
       { "seat": "19F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 20,
@@ -226,7 +246,8 @@ const economoyClass = [
       { "seat": "20D", "isSelected": false, "status": true },
       { "seat": "20E", "isSelected": false, "status": true },
       { "seat": "20F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 21,
@@ -237,7 +258,8 @@ const economoyClass = [
       { "seat": "21D", "isSelected": false, "status": true },
       { "seat": "21E", "isSelected": false, "status": true },
       { "seat": "21F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 22,
@@ -248,7 +270,8 @@ const economoyClass = [
       { "seat": "22D", "isSelected": false, "status": true },
       { "seat": "22E", "isSelected": false, "status": true },
       { "seat": "22F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 23,
@@ -259,7 +282,8 @@ const economoyClass = [
       { "seat": "23D", "isSelected": false, "status": true },
       { "seat": "23E", "isSelected": false, "status": true },
       { "seat": "23F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 24,
@@ -270,7 +294,8 @@ const economoyClass = [
       { "seat": "24D", "isSelected": false, "status": true },
       { "seat": "24E", "isSelected": false, "status": true },
       { "seat": "24F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 25,
@@ -281,7 +306,8 @@ const economoyClass = [
       { "seat": "25D", "isSelected": false, "status": false },
       { "seat": "25E", "isSelected": false, "status": false },
       { "seat": "25F", "isSelected": false, "status": false }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 26,
@@ -292,7 +318,8 @@ const economoyClass = [
       { "seat": "26D", "isSelected": false, "status": true },
       { "seat": "26E", "isSelected": false, "status": true },
       { "seat": "26F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 27,
@@ -303,7 +330,8 @@ const economoyClass = [
       { "seat": "27D", "isSelected": false, "status": true },
       { "seat": "27E", "isSelected": false, "status": true },
       { "seat": "27F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 28,
@@ -314,7 +342,8 @@ const economoyClass = [
       { "seat": "28D", "isSelected": false, "status": true },
       { "seat": "28E", "isSelected": false, "status": true },
       { "seat": "28F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 29,
@@ -325,7 +354,8 @@ const economoyClass = [
       { "seat": "29D", "isSelected": false, "status": true },
       { "seat": "29E", "isSelected": false, "status": true },
       { "seat": "29F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 30,
@@ -336,7 +366,8 @@ const economoyClass = [
       { "seat": "30D", "isSelected": false, "status": true },
       { "seat": "30E", "isSelected": false, "status": true },
       { "seat": "30F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 31,
@@ -347,7 +378,8 @@ const economoyClass = [
       { "seat": "31D", "isSelected": false, "status": true },
       { "seat": "31E", "isSelected": false, "status": true },
       { "seat": "31F", "isSelected": false, "status": false }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 32,
@@ -358,7 +390,8 @@ const economoyClass = [
       { "seat": "32D", "isSelected": false, "status": true },
       { "seat": "32E", "isSelected": false, "status": true },
       { "seat": "32F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   },
   {
     "row": 33,
@@ -369,9 +402,12 @@ const economoyClass = [
       { "seat": "33D", "isSelected": false, "status": false },
       { "seat": "33E", "isSelected": false, "status": true },
       { "seat": "33F", "isSelected": false, "status": true }
-    ]
+    ],
+    "businessClass" : false
   }
 ];
+
+
     
   
 
@@ -387,6 +423,7 @@ app.post('/api/economoyClass', (req, res) => {
   economoyClass.push(newTodo);
   res.status(201).json(newTodo);
 });
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

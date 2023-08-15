@@ -1,15 +1,22 @@
 import React from "react";
 import myImage from "../images/economy.png";
 import {GoDotFill} from 'react-icons/go'
+import { MainContext,useContext } from "../context";
 const EconomySeats = () => {
+
+  const { seatEconomy } = useContext(MainContext)
+
   return (
-    <div className="w-1/2 ">
-      <div className="ımage flex justify-center items-center p-5">
+    <div className="w-1/2  ">
+      <div className="ımage flex justify-center items-center p-5 " >
         <img src={myImage} alt="" className="w-[180] h-[100px]" />
       </div>
        {/*  Info Part  */}
       <div className="info ml-12">
+        <div className="flex gap-x-4 ">
         <h1 className="text-lg mb-2">Economy</h1>
+        <p className={`bg-primary flex justify-center items-center text-center rounded px-4 mb-2 text-sm text-white ${seatEconomy == false ? 'block' : 'hidden'}`}>Selected</p>
+        </div>
         <p className="text-gray-400 text-sm">Rest and recharge during your flight with extended leg room, personalized service, and a multi-course meal service</p>
         <div className="border-t-4 border-purple-400 opacity-80 w-16 my-2 mt-5"></div>
          <div className="mt-5">
@@ -22,6 +29,7 @@ const EconomySeats = () => {
 
          </div>
       </div>
+      
     </div>
   );
 };

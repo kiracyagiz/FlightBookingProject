@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const Modal = ({ isOpen, onClose }) => {
+
+  const navigate = useNavigate()
+
+  const paymentFunc = () => {
+    navigate('/')
+  }
+
   if (!isOpen) return null;
 
   return (
@@ -20,7 +28,7 @@ const Modal = ({ isOpen, onClose }) => {
           Cancel
         </button>
         <button
-          onClick={onClose}
+          onClick={paymentFunc}
           className="mt-4 bg-primary hover:bg-blue-600 text-white text-sm px-4 py-2 rounded float-right"
         >
           Upgrade for $199

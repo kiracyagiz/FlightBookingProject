@@ -5,11 +5,12 @@ import { MainContext,useContext } from "../context";
 const Cards = () => {
 
   const [seats, setSeats] = useState([]);
-   const {setFirstTabSeat,setSeatEconomy,nextStep,setSecondTabSeat}= useContext(MainContext)
+   const {setFirstTabSeat,setSeatEconomy,nextStep,setSecondTabSeat,firstData}= useContext(MainContext)
 
-   const seatHandler = (seat,dt) => {
+   const seatHandler = (seat,businesClass) => {
     seat.status ? nextStep ? setSecondTabSeat(seat.seat)  :  setFirstTabSeat(seat.seat) : console.log('Reserved')  ;
-    setSeatEconomy(dt)
+    setSeatEconomy(businesClass)
+    
 
     
    }

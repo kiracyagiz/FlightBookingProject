@@ -10,7 +10,11 @@ const BuyPlace = () => {
   const [seatEconomy,setSeatEconomy] = useState(false);
   const[showSecond,setShowSecond] = useState(false);
   const [nextStep,setNextStep] = useState(false);
-  
+  const [isBusiness,setIsBusiness] = useState(false);
+
+  const [firstData,setFirstData] = useState(false);
+  const [secondData,setSecondData] = useState(false);
+
 
 
   const data = {
@@ -25,7 +29,14 @@ const BuyPlace = () => {
     showSecond,
     setShowSecond,
     nextStep,
-    setNextStep
+    setNextStep,
+    isBusiness,
+    setIsBusiness,
+    firstData,
+    setFirstData,
+    secondData,
+    setSecondData
+    
   }
 
 

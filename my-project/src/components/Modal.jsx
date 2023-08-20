@@ -6,7 +6,7 @@ const Modal = ({ isOpen, onClose }) => {
   const navigate = useNavigate()
 
   const paymentFunc = () => {
-    navigate('/')
+    navigate('/payment')
   }
 
   if (!isOpen) return null;

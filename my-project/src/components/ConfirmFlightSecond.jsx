@@ -8,7 +8,8 @@ const ConfirmFlightSecond = () => {
 
   const navigate = useNavigate()
 
-  const{setIndex,setShowSecond,secondTabSeat,seatEconomy,isBusiness,setIsBusiness,setSecondData,secondData,firstData} = useContext(MainContext)
+  const{setIndex,setShowSecond,secondTabSeat,seatEconomy,
+    setCounter,setPayment,setIsBusiness,setSecondData,secondData,firstData} = useContext(MainContext)
 
   const [modalIsOpen,setModalIsOpen] = useState(false);
 
@@ -32,15 +33,29 @@ const ConfirmFlightSecond = () => {
     setSecondData(seatEconomy)
   },[seatEconomy])
 
+ 
+
   const orValue = firstData || secondData
+
+  const calculatePayment = () => {
+   
+     if (firstData && secondData) {
+      setPayment(prevPayment => prevPayment + 400 );
+      setCounter(prevCounter => prevCounter + 2)
+    } else if (firstData || secondData) {
+      setPayment(prevPayment => prevPayment + 200  );
+      setCounter(prevCounter => prevCounter + 1)
+
+    }
+    
+  };
 
   const buttonFunc = () => {
     setIndex(2)
     setShowSecond(true)
     openModal()
-    console.log(orValue,'secondDaam')
-
-    orValue ? openModal() : navigate('/')
+    orValue ? openModal() : navigate('/payment')
+    calculatePayment()
 
   }
   return (

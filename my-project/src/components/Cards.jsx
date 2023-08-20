@@ -23,7 +23,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="ml-52 bg-secondary w-max p-5 rounded-xl">
+    <div className="ml-24 md:ml-52 bg-secondary w-max p-5 rounded-xl">
       <div className="  w-max bg-white rounded-xl ">
         {seats.map((dt, i) => (
           <div key={i} className="flex flex-wrap gap-x-3 p-5 ">

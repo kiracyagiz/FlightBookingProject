@@ -10,7 +10,7 @@ const SeatSelector = () => {
 
 
   return (
-    <div className='md:w-2/4 md:fixed md:top-0 md:right-0'>
+    <div className=' md:w-2/4 md:fixed md:top-0 md:right-0'>
         
         <FlightInfoContent/>
         {!showSecond ? <SeatDifference/> : <SecondSeatDifference/>}

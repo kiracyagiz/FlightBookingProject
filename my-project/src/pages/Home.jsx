@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeNavbar from '../components/HomeNavbar'
 import PassengerInformation from '../components/PassengerInformation'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       
         <HomeNavbar/>
         <PassengerInformation/>
+        <Footer/>
     </div>
   )
 }

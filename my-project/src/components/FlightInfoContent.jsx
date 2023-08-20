@@ -4,12 +4,12 @@ import { MainContext,useContext } from "../context";
 
 const FlightInfoContent = () => {
 
-  const{index,setIndex} = useContext(MainContext)
+  const{index} = useContext(MainContext)
 
 
   return (
-    <div className="bg-seatPrimary  h-24 flex p-0">
-      <div className="location">
+    <div className="bg-seatPrimary flex flex-col sm:flex-row items-center sm:justify-center md:h-24 md:flex md:p-0">
+      <div className="location ">
         <div className="text-white text-left p-5">
           <h1 className="text-2xl">SFO</h1>
           <p>California, US</p>
